@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册登录</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="shortcut icon" href="images/logo.ico">
+	</head>
+	
+	<body>
+		<!--网页头部-->
+		<div id="header_wrapper">
+		</div>
+		<!--end of 网页头部-->
+		<!--网页主体-->
+		<div id="main_wrapper">
+			<div class="main w1200 clear">
+				<h2>登录 | 顾客注册</h2>
+				<div class="w-pre50">
+					<div class="login_box">
+						<h4>登录</h4>
+						<form class="login">
+							<div class="iptbox">
+								<s class="icon_email"></s>
+								<input class="ipt_text" type="text" name="loginName" placeholder="邮箱 / ID / 手机号" />
+							</div>
+							<div class="iptbox">
+								<s class="icon_lock"></s>
+								<input class="ipt_text" type="password" name="loginPwd" placeholder="密码" />
+								<p></p>
+							</div>
+							<div class="iptbox">
+								<input type="button" class="login_btn" value="登录" />
+							</div>
+						</form>
+					
+					</div>
+				</div>
+				<div class="w-pre50">
+					<div class="register_box">
+						<h4>顾客注册</h4>
+						<form class="register">
+							<div class="iptbox">
+								<s class="icon_email"></s>
+								<input class="ipt_text" type="text" name="regName" placeholder="邮箱 / ID / 手机号" />
+								<span></span>
+								<p>请输入正确的邮箱地址/手机号。</p>
+							</div>
+							<div class="iptbox">
+								<s class="icon_lock"></s>
+								<input class="ipt_text" type="password" name="regPwd" placeholder="密码" />
+								<span></span>
+								<p>密码为6-18位的字符，不能含空格,不能全为数字。</p>
+							</div>
+							<div class="iptbox">
+								<s class="icon_lock"></s>
+								<input class="ipt_text" type="text" name="regCode" placeholder="验证码" />
+								<span></span>
+								<p>请输入正确的验证码。</p>
+							</div>
+							<div class="iptbox">
+								<!--<input type="text" disabled=" " class="ipt_code" name="Code" value="1234" />-->
+								<i class="ipt_code">6348</i>
+								<s>看不清楚？点击图片换一张</s>
+							</div>
+							<div class="iptbox">
+								<input type="checkbox" checked />
+								我同意
+								<a href="javascript:;">《TPS用户注册协议》</a>
+							</div>
+							<div class="iptbox">
+								<input type="button" class="register_btn" name="register_btn" value="马上注册" />
+							</div>
+						</form>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<!--网页底部-->
+		<div id="footer_wrapper">
+		</div>
+	</body>
+	<script src="libs/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+	<script src="libs/jquery.cookie.js"></script>
+	<script src="libs/jquery.validate.js"></script>
+	<script src="libs/jquery.validate.messages_zh.js"></script>
+	<script>
+		//console.log($.cookie('regName'))
+		
+	</script>
+</html>

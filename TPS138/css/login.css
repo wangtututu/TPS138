@@ -1,0 +1,122 @@
+.main{
+	min-height: 608px;
+	margin-top: 45px;
+}
+.main h2{
+	font-size: 19px;
+	font-weight: 600;
+	line-height: 40px;
+	border-bottom: 2px solid #888;
+	margin-bottom: 20px;
+}
+.main .w-pre50{
+	width: 50%;
+	float: left;
+}
+.main .login_box{
+	padding-top: 30px;
+	padding-left: 60px;
+}
+.main h4{
+
+	line-height: 28px;
+    color: #666;
+    font-weight: 700
+}
+.main .iptbox{
+	position: relative;
+    margin: 20px 0;
+    height: 65px;
+    font-size: 10px;
+}
+.main .iptbox .ipt_text{
+	line-height: 18px;
+    height: 18px;
+    border: solid 1px #ccc;
+    padding: 2% 10% 2% 8%;
+    float: none;
+    overflow: hidden;
+    font-size: 14px;
+    cursor: pointer;
+}
+.main .icon_email,.main .icon_lock{
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 16px;
+	width: 18px;
+	height: 14px;
+	background: url(../images/ico_mui.png) no-repeat -76px -91px;
+}
+.main .icon_lock{
+	height: 20px;
+	top: 10px;
+	background-position: -102px -90px;
+}
+.main .login_btn,.main .register_btn{
+	margin-right: 20px;
+    background: #d22215;
+    padding: 2% 7%;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all .3s ease 0s;
+}
+.main .login_btn:hover{
+	background: #f41100;
+}
+.main .register_box{
+	min-height: 440px;
+	border-left: 1px solid #ccc;
+	padding-top: 30px;
+	padding-left: 60px;
+}
+.register_box .register_btn{
+	background: #2c3444;
+}
+.register_box .register_btn:hover{
+	background: #303f5c;
+}
+.iptbox p{
+	font-size: 10px;
+	color: #ff1200;
+	height: 10px;
+	padding-left: 5px;
+	margin-top: 5px;
+	display: none;
+}
+.iptbox span{
+	display: inline-block;
+	position: absolute;
+	top: 18%;
+	width: 19px;
+	height: 19px;
+	background: url(../images/register.png) no-repeat -53px 0;
+	margin-left: 5px;
+}
+.iptbox .ipt_code{
+	width: 80px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+	background: #fff;
+	color: #0000FF;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+}
+.iptbox s{
+	font-size: 10px;
+	color: #d22215;
+	text-decoration: none;
+}
+.iptbox a{
+	color: #000099;
+	font-size: 10px;
+}
+.iptbox a:hover{
+	text-decoration: underline;
+}
